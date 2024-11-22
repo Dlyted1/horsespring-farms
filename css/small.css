@@ -77,6 +77,55 @@
     display: flex; /* use display block to remove extra space below image */
   }
 
+  nav button {
+    margin: 0.2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #c9d6ea;
+  }
+  
+  nav {
+    background-color: #3c362a;
+    font-family: Roboto, sans-serif;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 2%;
+    text-decoration: none;
+    color: #c9d6ea;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  
+  nav ul li.active a {
+    background-color: rgba(184, 196, 187, 0.2);
+    color: #c9d6ea;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(184, 196, 187, 0.4);
+  }
+  
+  nav ul.hide {
+    display: none;
+  }
+  
+  /*----- Clearfix: Force an Element not to collapse -----*/
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
   main {
   max-width: 1000px;
   margin: 0 auto;
