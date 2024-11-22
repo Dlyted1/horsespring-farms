@@ -1,7 +1,7 @@
 @media only screen and (min-width: 970px) {
     header img {
         height: 400px;
-        width: 100;
+        width: 100%;
         
       }
   
@@ -12,32 +12,21 @@
       border: 1px double;
     }
 
-    nav {
-        background: #3c362a;
-      }
-    
-      nav button {
-        display: none;
-      }
-    
-      nav ul.hide {
-        display: block;
-      }
-    
-      nav ul {
-        margin-left: 2%;
-      }
-    
-      nav ul li {
-        float: left;
-      }
-    
-      nav ul li a {
-        border: none;
-        border-right: 1px solid rgba(01, 01, 01, 0.03);
-        padding: 0.6rem 1.7rem;
-      }
-      
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+
+         
     main {
       max-width: 1300px;
     }
@@ -82,6 +71,7 @@
     .headingtwo select {
         font-size: 1.5rem;
       }
+
 
     .contact {
       display: grid;
