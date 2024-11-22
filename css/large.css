@@ -26,7 +26,7 @@
       .headings h1 {
         font-size: 100px;
         margin: 0 0 0 17px;
-        text-shadow: 2px 2px 20px #352f16; /* Make text stand out */
+        text-shadow: 2px 2px 20px black; /* Make text stand out */
       }
 
       

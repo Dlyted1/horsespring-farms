@@ -20,11 +20,14 @@
     margin: 0;
   }
   
-  h1,
-  h2 {
+  h1 {
     font-family: "Chicle", serif;
     font-size: 80px;
+  }
 
+  h2 { 
+    font-family: "Chicle", serif;
+    font-size: 50px;
   }
   
   h3,
@@ -53,7 +56,7 @@
     transform: translate(-50%, -50%); /* Exact centering */
     color: rgb(245, 243, 232); /* Contrast text color */
     text-align: center; /* Center-align text */
-    text-shadow: 2px 2px 10px #352f16; /* Make text stand out */
+    text-shadow: 2px 2px 10px black; /* Make text stand out */
   }
   
   .headings h1 {
