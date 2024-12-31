@@ -122,21 +122,28 @@
   background-color: rgb(245, 243, 232);
   padding: 0.5em;
 }
-  
-.rescue-motto h2 {
-    font-size: 30px;
-    text-align: center;
-    padding: 0 5px 0 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+
+ul, ol {
+  list-style: none;
 }
 
-.rescue-motto p {
-    font-size: 20px;
-    font-weight: 200;
-    margin-left: 10px;
-    margin-right: 10px;
+.horsespring-motto h2 {
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
+
+.horsespring-motto p {
+  font-size: 20px;
+  margin: 20px;
+}
+
+h2.horseCard-title {
+  padding-top: 30px;
+}
+
 
 form {
   display: flex;
@@ -157,6 +164,10 @@ form {
   box-shadow: 5px 5px 5px #999;
   padding: 10px;
   
+}
+
+.horseCards p {
+  margin: 10px 50px 25px 25px;
 }
 
 /*

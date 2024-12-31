@@ -45,29 +45,7 @@
       }
 
       
-      .motto {
-        padding-top: 10px;
-        padding-left: 20px;
-        font-size: 40px;
-        font-weight: 200;
-      }
-
-      .rescue-motto h2 {
-        font-size: 50px;
-        font-weight: 200;
-        text-align: center;
-        padding: 0 5px 0 5px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    
-    .rescue-motto p {
-        font-size: 25px;
-        font-weight: 200;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
+      
     .headingtwo select {
         font-size: 1.5rem;
       }
