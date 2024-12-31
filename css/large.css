@@ -72,6 +72,18 @@
         font-size: 1.5rem;
       }
 
+      .horseCards {
+        margin: 30px;
+      }
+
+      .horseCards-img {
+        width: 1500px; 
+        height: auto; 
+        margin: 0;
+        place-items: center;
+        padding: 20px;
+      }
+
 
     .contact {
       display: grid;
@@ -98,4 +110,44 @@
     .social {
       justify-content: left;
     }
+    
+    figcaption {
+      display: flex;
+      font-size: smaller;
+      text-align: center;
+      padding-top: 20px;
     }
+  
+    /* hover effect */
+    .sun:hover {
+      box-shadow: 0 0 80px #333;
+    }
+    .wind:hover {
+      box-shadow: 0 0 80px #333;
+    }
+    .rain:hover {
+      box-shadow: 0 0 80px #333;
+    }
+    .rainbow:hover {
+      box-shadow: 0 0 80px #333;
+    }
+    .thunder:hover {
+      box-shadow: 0 0 80px #333;
+    }
+    .hail:hover {
+      box-shadow: 0 0 80px #333;
+    }
+    .snow:hover {
+      box-shadow: 0 0 80px #333;
+    }
+    .cold:hover {
+      box-shadow: 0 0 80px #333;
+    }
+    .icy:hover {
+      box-shadow: 0 0 80px #333;
+    }
+  
+    .gallery-container {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  } /*end large */

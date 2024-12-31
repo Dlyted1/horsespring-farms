@@ -24,6 +24,18 @@
         margin-right: 15px;
     }
 
+    .horseCards {
+      margin: 30px;
+    }
+
+    .horseCards-img {
+      width: 1050px; 
+      height: auto; 
+      margin: 0;
+      place-items: center;
+      padding: 20px;
+    }
+
   .map {
       display: block;
       overflow:hidden;
