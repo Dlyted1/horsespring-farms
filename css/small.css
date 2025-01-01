@@ -135,9 +135,20 @@ ul, ol {
     margin-bottom: 5px;
 }
 
+.horsespring-motto h3 {
+  font-size: 30px;
+  text-align: center;
+  color: #757836;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .horsespring-motto p {
   font-size: 20px;
-  margin: 20px;
+  margin: 40px;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #999;
+  padding: 10px;
 }
 
 h2.horseCard-title {
