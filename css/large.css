@@ -34,6 +34,7 @@
 
     body {
       max-width: 2100px;
+      min-width: none;
       margin: 0 auto;
       border: 1px double;
     }
@@ -44,10 +45,19 @@
         text-shadow: 2px 2px 20px black; /* Make text stand out */
       }
 
+      .motto {
+        font-size: xx-large;
+        font-weight: 300; /* Light text for subheading */
+        margin-top: 50px; /* Add spacing below h1 */
+      }
       
       
     .headingtwo select {
         font-size: 1.5rem;
+      }
+
+      .horsespring-motto h3 {
+        font-size: x-large;
       }
 
       .horseCards {
@@ -62,6 +72,15 @@
         padding: 20px;
       }
 
+      .horseCards p {
+        font-size: larger;
+        margin: 10px 40px 20px 10px;
+      }
+
+      .trail-images img {
+        width: 30%; /* Adjust to three images per row on large screens */
+        max-width: 30%;
+      }
 
     .contact {
       display: grid;
