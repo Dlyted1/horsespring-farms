@@ -77,9 +77,40 @@
         margin: 10px 40px 20px 10px;
       }
 
+      .trail-images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        gap: 20px;
+        justify-items: center;
+      }
+    
       .trail-images img {
-        width: 30%; /* Adjust to three images per row on large screens */
-        max-width: 30%;
+        width: 100%; /* Full container width */
+        max-height: 350px; /* Uniform height for portrait images */
+        object-fit: cover;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 5px 5px 5px #999;
+      }
+
+      .call-button {
+        margin-top: 30px;
+      }
+
+      #trail-cards .trailone p {
+      margin-top: 40px;
+      }
+      #trail-cards .trailtwo li {
+        font-size: 1.25em; /* Slightly larger font size for large screens */
+      }
+    
+      #trail-cards .trailthree p {
+        font-size: 1.25em; /* Increases paragraph text size */
+      }
+    
+      #trail-cards .call-button {
+        padding: 20px 30px; /* Even larger button padding */
+        font-size: 20px; /* Larger button text size */
       }
 
     .contact {

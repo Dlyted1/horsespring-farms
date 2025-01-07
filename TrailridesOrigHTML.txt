@@ -1,3 +1,5 @@
+Trailrides Orig HTML
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,50 +53,38 @@
         <article class="trailone">
 
             <h3>Experience the Beauty of Central Florida on Horseback</h3><br>
+            <p>Explore Central Florida's breathtaking landscapes with guided horse trail rides through lush forests, scenic pastures, and tranquil waterways. Whether you're a seasoned rider or a beginner, these trails offer an unforgettable adventure for all skill levels. Encounter native wildlife, enjoy the warm sunshine, and immerse yourself in nature's serenity. With gentle, well-trained horses and experienced guides, you'll create lasting memories as you discover the hidden gems of Central Florida. Perfect for families, couples, and solo adventurers, horse trail riding offers a unique way to connect with Florida’s natural beauty. Call us today to schedule your ride at (863)273-2856.</p><br>
+
             <div class="trail-images">
-                <!-- Landscape Image -->
-                <img src="images/trailhorses.jpg" alt="Trail horses saddled up" class="landscape">
+                <img src="images/trailK.jpg" alt="Trail ride down dirt road" class="portrait">
 
-            <p>Explore Central Florida's breathtaking landscapes with guided horse trail rides through lush forests, scenic pastures, and tranquil waterways. Whether you're a seasoned rider or a beginner, these trails offer an unforgettable adventure for all skill levels. <br>
-               
-                
-             <a href="tel:8632732856" class="call-button">Call Today</a>
-               
-            </p>              
-</div>
-</article>
-        <article class="trailtwo">
+                <img src="images/Megan.jpg" alt="Trail horse Megan" class="portrait">
 
+                <img src="images/linda.jpg" alt="Horseback rider Linda on Mercedes" class="portrait">
+          
            
-            <h3>What We Offer</h3><br>
-               <ul>
-                    <li>Locally owned and operated</li>
-                    <li>Trained horses</li>
-                    <li>Helmets provided</li>
-                    <li>Pre-ride demonstations</li>
-                    <li>Children 3 years & up with adult</li>
-                    <li>Different trails available</li>
-                    <li>Over 45 years of experience in the indusrty</li>
-                    <li>Flat rates</li>
-                    <li>Reservations available</li><br><br>
-                </ul>
-             <div class="trail-images">
+                 <img src="images/lake-ride.jpg" alt="Horseback riders by lake" class="portrait">
 
-                        <img src="images/groupTrail.jpg" alt="Group of trailriders" class="portrait hide-on-small">
-                        <img src="images/trailK.jpg" alt="trailriders on dirt road" class="portrait">
-        
-            </div> 
-                      
-        </article>              
-        <article class="trailthree">
-            <h3>Experience the Beauty of Central Florida on Horseback</h3><br>
-            <p>Encounter native wildlife, enjoy the warm sunshine, and immerse yourself in nature's serenity. With gentle, well-trained horses and experienced guides, you'll create lasting memories as you discover the hidden gems of Central Florida. Perfect for families, couples, and solo adventurers, horse trail riding offers a unique way to connect with Florida’s natural beauty. Call us today to schedule your ride at (863)273-2856. </p><br><br>
-            <div class="trail-images">
+                 <img src="images/lake_horses.jpg" alt="Horses at lake enjoying the water" class="portrait">
 
-                <img src="images/lake-ride.jpg" alt="Horseback riders by lake" class="portrait">
-                <img src="images/trailrideedit.jpg" alt="Group of trailriders" class="portrait">
+                 
 
-            </div>         
+                 <!-- Landscape Image -->
+                 <img src="images/trailhorses.jpg" alt="Trail horses saddled up" class="landscape">
+                 <!-- Landscape Image -->
+                <img src="images/marilyn.jpg" alt="Trailguide Marilyn" class="landscape">
+
+                 <img src="images/wooded_trail.jpg" alt="trail ride through the mossed oak trees" class="portrait">
+
+                 <img src="images/grouptrail.jpg" alt="trail ride through the mossed oak trees" class="portrait">
+
+                 <img src="images/kathy.jpg" alt="Horsebackrider Kathy on Tonka" class="portrait">
+
+                 <img src="images/trailride2.jpg" alt="Horseback rider on trail horse Chance" class="portrait">
+
+                
+
+                
 
                
             </div>

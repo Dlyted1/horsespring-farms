@@ -25,12 +25,43 @@
       margin: 0;
       place-items: center;
       padding: 20px;
+      float: right;
     }
 
-    .trail-images img {
-      width: 48%; /* Adjust to two images per row on medium screens */
-      max-width: 48%;
-    }
+      .trail-images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        gap: 20px; /* Space between items */
+        justify-items: center;
+      }
+    
+      .trail-images img {
+        width: 100%; /* Full container width */
+        max-height: 300px; /* Ensure consistent size for portrait images */
+        object-fit: cover; /* Adjust image fit without distortion */
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 5px 5px 5px #999;
+      }
+
+      #trail-cards .trailone p {
+        font-size: 1em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      #trail-cards .trailtwo li {
+        font-size: 1em;
+      }
+    
+      #trail-cards .trailthree p {
+        font-size: 1em; /* Adjusts paragraph text size */
+      }
+    
+      #trail-cards .call-button {
+        padding: 15px 25px; /* Makes the button larger */
+        font-size: 18px;    /* Increases button text size */
+      }
 
   .map {
       display: block;
