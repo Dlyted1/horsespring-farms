@@ -43,18 +43,25 @@
         box-shadow: 5px 5px 5px #999;
       }
 
+      #trail-cards h3 {
+        font-size: x-large;
+      } 
+      #trail-cards h3 {
+        font-size: x-large;
+      } 
+
       #trail-cards .trailone p {
-        font-size: 1em;
+        font-size: 1.2em;
         margin-top: 10px;
         margin-bottom: 10px;
       }
 
       #trail-cards .trailtwo li {
-        font-size: 1em;
+        font-size: 1.2em;
       }
     
       #trail-cards .trailthree p {
-        font-size: 1em; /* Adjusts paragraph text size */
+        font-size: 1.2em; /* Adjusts paragraph text size */
       }
     
       #trail-cards .call-button {

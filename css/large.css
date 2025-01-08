@@ -97,15 +97,25 @@
         margin-top: 30px;
       }
 
+      #trail-cards h2 {
+        font-size: 70px;
+      }
+      
+      #trail-cards h3 {
+        font-size: x-large;
+      } 
+
       #trail-cards .trailone p {
-      margin-top: 40px;
+      margin-top: 60px;
+      margin-bottom: 40px;  
+      font-size: 1.35em;
       }
       #trail-cards .trailtwo li {
-        font-size: 1.25em; /* Slightly larger font size for large screens */
+        font-size: 1.35em; /* Slightly larger font size for large screens */
       }
     
       #trail-cards .trailthree p {
-        font-size: 1.25em; /* Increases paragraph text size */
+        font-size: 1.35em; /* Increases paragraph text size */
       }
     
       #trail-cards .call-button {

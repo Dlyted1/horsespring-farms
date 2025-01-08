@@ -256,6 +256,11 @@ article {
   transform: scale(1.05);  /* Slight zoom effect */
 }
 
+#trail-cards h3 {
+  font-size: larger;
+  font-weight: 600;
+}
+
 #trail-cards .trailone p {
   font-size: larger; /* Adjusts paragraph text size */
 }
@@ -349,7 +354,6 @@ article {
   position: relative;
   text-align: center;
 }
-
 
 
 .social {      
