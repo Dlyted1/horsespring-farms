@@ -30,6 +30,23 @@
     font-size: 50px;
     color: #3c362a;
   }
+
+  h2 a {
+    
+    color: #3c362a;
+    display: inline-block; /* Make the link an inline-block element */
+    text-decoration: none;
+    }
+    
+  /* Initial state of the link */
+  h2 a {
+    transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+  }
+
+  /* Zoom effect on hover */
+  h2 a:hover {
+   transform: scale(1.05); /* Slight zoom effect */
+  }
   
   h3,
   h4 {
@@ -66,9 +83,9 @@
   }
   
   .motto {
-    font-size: x-large;
+    font-size: large;
     font-weight: 300; /* Light text for subheading */
-    margin-top: 5px; /* Add spacing below h1 */
+    
   }
 
   img {
@@ -392,7 +409,7 @@ figcaption {
   }
 
 
-@media only screen and (max-width: 671px) {
+@media only screen and (max-width: 700px) {
   .trail-images {
     grid-template-columns: 1fr; /* Single column on small screens */
   }
