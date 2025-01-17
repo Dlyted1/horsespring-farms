@@ -419,11 +419,10 @@ figcaption {
 
 @media only screen and (max-width: 700px) {
 
-  .headings h1 {
-    font-size: 35px; 
-    margin: 0; /* Remove extra margin */
+ 
 
   .trail-images {
+    display: grid;
     grid-template-columns: 1fr; /* Single column on small screens */
   }
 
@@ -447,7 +446,11 @@ figcaption {
   #trail-cards .trailthree p {
     font-size: medium; /* Adjusts paragraph text size */
   }
-  
+
+  .headings h1 {
+    font-size: 35px; 
+    margin: 0; /* Remove extra margin */
+  }
 }
  
 
