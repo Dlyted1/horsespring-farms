@@ -21,3 +21,10 @@ if (daysbetween == 0) {
 
   //need to update the stored date
   localStorage.setItem("lastvisit", todaysDate);
+
+  // Get the current year and set it in the 'theyear' span
+  document.getElementById("theyear").textContent = new Date().getFullYear();
+
+  // Optionally, set today's full date in 'todaysDate' span
+  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  document.getElementById("todaysDate").textContent = new Date().toLocaleDateString(undefined, options);

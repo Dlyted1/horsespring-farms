@@ -5,9 +5,13 @@
     }
   
     .headings h1 { 
-        font-size: 80px;
+        font-size: 60px;
         margin: 0 0 15px 5px;
         text-shadow: 2px 2px 10px black; /* Make text stand out */
+      }
+
+      h2 a {
+        margin-top: 40px;
       }
     
       .motto {
